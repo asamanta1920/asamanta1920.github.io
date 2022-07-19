@@ -91,8 +91,8 @@ void main() {
 // n.b. the `#version` pragma in the each shader has to be the very first line.
 // there can't be any kind of whitespace before it or it will break!
 
-const RES_WIDTH = 1920;
-const RES_HEIGHT = 1080;
+const RES_WIDTH = 1024;
+const RES_HEIGHT = 768;
 
 /** helper function to log shader compilation errors */
 const shaderLog = (
